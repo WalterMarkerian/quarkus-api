@@ -1,0 +1,4 @@
+2024-09-09 12:52:16.051453-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "select count(*) from Genre g1_0 where g1_0.name [*]g1_0.ILIKE ?"
+Syntax error in SQL statement "select count(*) from Genre g1_0 where g1_0.name [*]g1_0.ILIKE ?"; SQL statement:
+select count(*) from Genre g1_0 where g1_0.name g1_0.ILIKE ? [42000-232]
